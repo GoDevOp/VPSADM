@@ -105,7 +105,7 @@ then
 	chmod +x /bin/sshlimiter
 	wget https://paste.ee/r/7EtSl/2 -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget https://raw.githubusercontent.com/K1R170/VPSADM/master/ajuda.sh
+	 wget https://raw.githubusercontent.com/K1R170/VPSADM/master/ajuda.sh -O /bin/ajuda
 	chmod +x /bin/ajuda
 	wget https://paste.ee/r/2Ic4c/0 -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
