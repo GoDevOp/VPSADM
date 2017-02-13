@@ -99,7 +99,7 @@ then
 	chmod +x /bin/expcleaner
 	wget https://paste.ee/r/7EtSl/7 -O /bin/mudardata
 	chmod +x /bin/mudardata
-	wget https://paste.ee/r/7EtSl/8.sh -O /bin/remover
+	wget https://paste.ee/r/7EtSl/8 -O /bin/remover
 	chmod +x /bin/remover
 	wget https://raw.githubusercontent.com/K1R170/VPSADM/master/sshlimiter1.sh -O /bin/sshlimiter
 	chmod +x /bin/sshlimiter
