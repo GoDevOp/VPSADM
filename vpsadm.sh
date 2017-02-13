@@ -1,5 +1,5 @@
 #!/bin/bash
-tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-20s\n' "VPS Manager 2.0.1 (versão gratuita)" ; tput sgr0
+tput setaf 7 ; tput setab 4 ; tput bold ; printf '%35s%s%-20s\n' "VPS ADM 1.0 (versão gratuita)" ; tput sgr0
 tput setaf 3 ; tput bold ; echo "" ; echo "Este script irá:" ; echo ""
 echo "● Instalar e configurar o proxy squid nas portas 80, 3128, 8080 e 8799" ; echo "  para permitir conexões SSH para este servidor"
 echo "● Configurar o OpenSSH para rodar nas portas 22 e 443"
@@ -11,7 +11,7 @@ echo ""
 echo "Ao utilizar esta versão GRATUITA do 'VPS Manager 2.0' você concorda com os seguintes termos de uso:"
 echo ""
 echo "1. Você pode:" 
-echo "a. Instalar e usar o 'VPS Manager 2.0' no(s) seu(s) servidor(es)." 
+echo "a. Instalar e usar o 'VPS ADM 1.0' no(s) seu(s) servidor(es)." 
 echo "b. Criar, gerenciar e remover um número ilimitado de usuários através desse conjunto de scripts." 
 echo "" 
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
@@ -21,12 +21,12 @@ echo "esse conjunto de scripts sem autorização do desenvolvedor."
 echo "b. Modificar ou editar o conjunto de scripts para fazer você parecer o desenvolvedor dos scripts." 
 echo "" 
 echo "3. Você aceita que:" 
-echo "a. Esta cópia GRATUITA do VPS Manager 2.0 não inclui NENHUM tipo garantia ou suporte promocional, sendo estes exclusivos da versão paga do VPS Manager 2.0."
+echo "a. Esta cópia GRATUITA do VPS Manager 2.0 não inclui NENHUM tipo garantia ou suporte promocional, sendo estes exclusivos da versão paga do VPS ADM 1.0."
 echo "b. O usuário desse conjunto de scripts é o único resposável por qualquer tipo de implicação"
 echo "ética ou legal causada pelo uso desse conjunto de scripts para qualquer tipo de finalidade."
 echo "" 
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
-echo "4. Você concorda que o desenvolvedor não se responsabilizará por nenhum tipo de problemas ocorridos durante o uso dessa versão GRATUITA do VPS Manager 2.0."
+echo "4. Você concorda que o desenvolvedor não se responsabilizará por nenhum tipo de problemas ocorridos durante o uso dessa versão GRATUITA do VPS ADM 1.0."
 echo ""
 tput setaf 3 ; tput bold ; read -n 1 -s -p "Aperte qualquer tecla para continuar..." ; echo "" ; echo "" ; tput sgr0
 IP=$(wget -qO- ipv4.icanhazip.com)
@@ -95,7 +95,7 @@ then
 	chmod +x /bin/sshlimiter
 	wget https://paste.ee/r/7EtSl/2 -O /bin/alterarlimite -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget https://raw.githubusercontent.com/K1R170/VPSADM/master/ajuda.sh -O /bin/ajuda
+	 wget http://phreaker56.site88.net/FREE/314519/ajuda.sh -O /bin/ajuda
 	chmod +x /bin/ajuda
 	wget https://paste.ee/r/2Ic4c/0 -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
@@ -152,7 +152,7 @@ then
 	chmod +x /bin/sshlimiter
 	wget https://paste.ee/r/7EtSl/2 -O /bin/alterarlimite -O /bin/alterarlimite
 	chmod +x /bin/alterarlimite
-	wget https://raw.githubusercontent.com/K1R170/VPSADM/master/ajuda.sh -O /bin/ajuda
+	 wget http://phreaker56.site88.net/FREE/314519/ajuda.sh -O /bin/ajuda
 	chmod +x /bin/ajuda
 	wget https://paste.ee/r/2Ic4c/0 -O /bin/sshmonitor
 	chmod +x /bin/sshmonitor
